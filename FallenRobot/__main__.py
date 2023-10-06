@@ -122,7 +122,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](https://t.me/noob_xd) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/probinnerbd) ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](https://t.me/noob_xd) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/NXDDUpdates) ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -439,7 +439,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="Group",
-                            callback_data="https://t.me/probinnerbd",
+                            callback_data="https://t.me/NXDDUpdates",
                         ),
                     ],
                     [
@@ -475,7 +475,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 
 *Owner :* [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/noob_xd)
 
-{dispatcher.bot.first_name} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://t.me/toxichacke).
+{dispatcher.bot.first_name} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://t.me/NXDDUpdates).
 © 2023 - 2024 [@VIP🇧🇩](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -734,7 +734,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1356469075 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/toxichacke)."
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/NXDDUpdates)."
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
